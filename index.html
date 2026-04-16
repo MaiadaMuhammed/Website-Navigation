@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SideBar | Task01</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated Blur Background -->
+  <div class="blur-bg"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="top-section">
+      <div class="logo">
+        <img src="assets/WhatsApp Image 2025-04-24 at 12.19.23_17007cbe.jpg" alt="Maiada Logo">
+        <h2 id="me">
+          Maiada Muhammed
+        </h2>
+      </div>
+      <button id="toggle-btn"><i class="ri-arrow-left-s-line"></i></button>
+    </div>
+
+    <ul class="links">
+      <li data-page="home"><i class="ri-home-5-line"></i><span class="text">Home</span></li>
+      <li data-page="about"><i class="ri-user-line"></i><span class="text">About</span></li>
+      <li data-page="projects"><i class="ri-code-s-slash-line"></i><span class="text">Projects</span></li>
+      <li data-page="skills"><i class="ri-lightbulb-line"></i><span class="text">Skills</span></li>
+      <li data-page="contact"><i class="ri-mail-line"></i><span class="text">Contact</span></li>
+    </ul>
+
+    <div class="controls">
+      <button id="theme-toggle"><i class="ri-sun-line"></i></button>
+      <button id="lang-toggle"><i class="ri-translate-2"></i></button>
+    </div>
+
+    <footer>
+Developed by <br>
+      <b>Maiada Muhammed</b>
+      &copy;
+      <b>2025</b>
+        | 
+        <a href="https://www.linkedin.com/in/maiadafsd/" target="_blank" rel="noopener noreferrer">
+          <i class="ri-linkedin-box-line"></i>
+        </a>
+        <a href="https://github.com/MaiadaMuhammed" target="_blank" rel="noopener noreferrer">
+          <i class="ri-github-fill"></i>
+        </a>
+    </footer>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <section class="page active" id="home">
+      <h1>Welcome to My Portfolio </h1>
+      <p>Explore my front-end creativity and projects!</p>
+    </section>
+    <section class="page" id="about">
+      <h1>About Me </h1>
+      <p>Hi, I’m Maiada — a front-end developer passionate about crafting elegant UIs.</p>
+    </section>
+    <section class="page" id="projects">
+      <h1>Projects </h1>
+      <p>Explore my latest designs and interactive web apps.</p>
+    </section>
+    <section class="page" id="skills">
+      <h1>Skills</h1>
+      <p>HTML, CSS, JS — building responsive and modern websites.</p>
+    </section>
+    <section class="page" id="contact">
+      <h1>Contact </h1>
+      <p>Let’s build something beautiful together!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
